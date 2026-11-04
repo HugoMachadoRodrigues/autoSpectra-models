@@ -19,7 +19,7 @@ predict_soil(my_spectra, "OSSL_VisNIR_Cubist", with_pi = TRUE)
 | `OSSL_VisNIR_models.zip` | VisNIR 350–2500 nm | masked soilVAE (accepts partial-coverage instruments) | oc, n.tot, ph.h2o, clay.tot |
 | `OSSL_MIR_models.zip` | MIR 600–4000 cm⁻¹ | masked soilVAE | oc, n.tot, ph.h2o, clay.tot |
 
-Each archive holds, per property, the fitted model, the target scaling and calibration range, and a metrics file (held-out metrics, applicability-domain limit, conformal calibration). Cubist archives also hold the 10-fold and leave-one-dataset-out cross-validation summaries. `SHA256SUMS` lists the archive checksums.
+Each archive holds, per property, the fitted model, the target scaling and calibration range, and a metrics file (held-out metrics, applicability-domain limit, conformal calibration). Since v0.4.1 the metrics files no longer include per-band training ranges. Cubist archives also hold the 10-fold and leave-one-dataset-out cross-validation summaries. `SHA256SUMS` lists the archive checksums.
 
 Performance, methodology and the comparison with Safanelli et al. (2025) are documented in the [autoSpectra README](https://github.com/HugoMachadoRodrigues/autoSpectra#performance).
 
