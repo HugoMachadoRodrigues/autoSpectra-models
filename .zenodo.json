@@ -1,0 +1,16 @@
+{
+  "title": "autoSpectra pre-trained models (OSSL v1.2)",
+  "upload_type": "dataset",
+  "description": "<p>Pre-trained soil-property models for the autoSpectra R package: Cubist + PCA(120) models replicating Safanelli et al. (2025) and masked soilVAE models that accept partial-coverage instruments, for VisNIR (350-2500 nm) and MIR (600-4000 cm-1) spectra, trained on the Open Soil Spectral Library v1.2. Properties: organic carbon, total nitrogen, pH (H2O) and clay.</p><p>The archives contain model parameters and aggregate statistics only; no OSSL training data is redistributed. Download them with autoSpectra::download_ossl_models().</p>",
+  "creators": [
+    {"name": "Rodrigues, Hugo", "orcid": "0000-0002-8070-8126"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["soil spectroscopy", "OSSL", "VisNIR", "MIR", "Cubist", "variational autoencoder", "soil carbon", "pre-trained models"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/HugoMachadoRodrigues/autoSpectra", "relation": "isSupplementTo", "scheme": "url", "resource_type": "software"},
+    {"identifier": "10.5281/zenodo.19004686", "relation": "isSupplementTo", "scheme": "doi", "resource_type": "software"},
+    {"identifier": "10.1371/journal.pone.0296545", "relation": "references", "scheme": "doi", "resource_type": "publication-article"},
+    {"identifier": "10.5281/zenodo.7599269", "relation": "isDerivedFrom", "scheme": "doi", "resource_type": "dataset"}
+  ]
+}
